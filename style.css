@@ -1,15 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@500&display=swap");
 :root {
-  --primary-color: #7c3aed;
+  /* --primary-color: #7c3aed; */
+  --primary-color: #051737;
   --dark-gray: #6N7280;
   --off-white: #f3f4f6;
 }
 
+/* @media (max-width: 900px) {
+  body {
+    max-width: 95%;
+    width: 100%;
+  } */
+
 body {
-  font-family: sans-serif;
-  margin: 0;
+  font-family: "Nunito", "Montserrat", sans-serif;
+  margin: 0px auto;
+  padding: 0 2rem;
+  /* background-color: #dad9de; */
+
   /* width: 80%; */
-  margin-right: 5%;
-  margin-left: 5%;
 }
 
 hr {
@@ -32,7 +42,9 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
+.link-active {
+  font-size: larger;
+}
 .link-primary {
   background-color: var(--primary-color);
   color: white;
@@ -85,12 +97,13 @@ hr {
 
 .hero {
   padding: 2rem;
+  padding-top: 5rem;
   /* text-align: center; */
 }
 
 .hero .hero-img {
   padding: 2rem;
-  max-width: 350px;
+  max-width: 450px;
   display: block;
   margin: auto;
 }
@@ -106,6 +119,7 @@ hr {
   padding: 2rem;
   border-radius: 1rem;
   margin: 2rem 0;
+  text-align: center;
 }
 .section h1 {
   text-align: center;
