@@ -112,6 +112,7 @@ hr {
 
 .hero .hero-img {
   /* padding: 2rem; */
+  width: 100%;
   max-width: 450px;
   display: block;
   margin: auto;
