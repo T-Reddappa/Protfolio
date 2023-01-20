@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@500&display=swap");
+
 :root {
   /* --primary-color: #7c3aed; */
-  --primary-color: #051737;
+  --primary-color: #022e51;
   --dark-gray: #6N7280;
   --off-white: #f3f4f6;
 }
@@ -16,7 +17,8 @@
 body {
   font-family: "Nunito", "Montserrat", sans-serif;
   margin: 0px auto;
-  padding: 0 2rem;
+  max-width: 85%;
+  width: 100%;
   /* background-color: #dad9de; */
 
   /* width: 80%; */
