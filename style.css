@@ -85,6 +85,9 @@ hr {
   color: white;
 }
 
+.nav-brand {
+  font-size: large;
+}
 .nav-pills {
   /* display: flex;
   flex-direction: row;
