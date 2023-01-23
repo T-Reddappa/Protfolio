@@ -41,6 +41,16 @@ hr {
   margin: auto;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
 .link {
   box-sizing: border-box;
   text-decoration: none;
@@ -170,7 +180,7 @@ hr {
 
 .showcase-list {
   /* padding: 2rem; */
-  padding: 2rem;
+  /* padding: 2rem; */
   border-radius: 1rem;
   text-align: center;
   margin: 3rem auto;
